@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Header Related Styles */
+header{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    padding: 0px 50px;
+}
+
+nav h4{
+    margin-right: 20px;
+
+    font-size: 20px;
+}
+
+nav i{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+
+    border-radius: 50%;
+}
+
+/* Banner Related Styles */
+#banner{
+    height: 65%;
+    width: 100%;
+    margin-top: 20px;
+
+    padding: 40px 50px;
+}
+
+#banner-title h1{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 500;
+    margin-bottom: 20px;   
+}
+
+#banner-text-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#banner-text-links p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#banner-links{
+    width: 20%;
+}
+
+.links{
+    margin: 5px 0px;
+    padding: 10px 15px;
+
+    border-top: 2px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #000;
+}
+
+.links:hover a{
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+.links i{
+    opacity: 0;
+}
+
+.links:hover i{
+    opacity: 1;
+}
+
+
+
+
